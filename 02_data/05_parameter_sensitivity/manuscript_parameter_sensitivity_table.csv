@@ -1,0 +1,13 @@
+Parameter,Setting,Default,Average rank
+gr,0.05,No,2.6
+gr,0.10,No,2.533333333333333
+gr,0.15,Yes,2.833333333333333
+gr,0.20,No,3.2333333333333334
+gr,0.25,No,3.8
+Window fraction,0.10 (2),No,3.216666666666667
+Window fraction,0.20 (3),No,3.5
+Window fraction,0.30 (4),Yes,3.066666666666667
+Window fraction,0.40 (5),No,2.6666666666666665
+Window fraction,0.50 (6),No,2.55
+IGE modulation,Cosine,Yes,1.3333333333333333
+IGE modulation,Gaussian,No,1.6666666666666667

@@ -1,0 +1,58 @@
+{
+  "material_passport": {
+    "origin_skill": "academic-research-suite/experiment-agent",
+    "origin_mode": "run+validate",
+    "created_at_utc": "2026-08-28T09:05:19.969017+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "manuscript_runtime_selected7_v1"
+  },
+  "timing_scope": "optimizer call only; excludes input loading, initial-population generation, result serialization and one-time JIT warm-up",
+  "execution_policy": "single process, sequential calls, fixed randomized order within each case/repeat block; run only when no benchmark worker pool is active",
+  "algorithms": [
+    "IIGO_NoIGE",
+    "DE",
+    "jSO",
+    "LSHADE",
+    "IIGO",
+    "CMA-ES",
+    "LSHADE-cnEpSin"
+  ],
+  "cases": [
+    [
+      "CEC2014",
+      30,
+      11
+    ],
+    [
+      "CEC2017",
+      29,
+      22
+    ],
+    [
+      "CEC2022",
+      12,
+      30
+    ]
+  ],
+  "repeats": 10,
+  "warmup_fes": 5000,
+  "timed_fes": 300000,
+  "dimension": 30,
+  "population_size": 10,
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "numpy": "1.26.4",
+    "numba": "0.60.0"
+  },
+  "source_sha256": {
+    "IIGO_Final.py": "4ea6a85e22157de63fa8c6a5b6a06771c9661a96a225640696390ff9e270cd4b",
+    "IIGO_Ablations.py": "ff5d8c5c1e87802df749c6fd6dac153f127a0c73928fd8c573271cece99575ac",
+    "ExperimentAlgorithms.py": "611fdebcae1f0b6e71dffe920a4b62387e4832e8536d0d24e963e377f0821ee4",
+    "Interface.py": "8e73cffb78917fa4ac0dfd2a3270c2b319db8b93abd2b88dcdc020c3c4384a0c",
+    "experiment_config.py": "5fce18306c8c4a770147896f0b8d31817667a0c1edc9d95b23109a460a2d8136",
+    "elements.py": "e22d21b09cbaa3a25aa87d44706a896ab3b1a348a292d8cc8b325707c5b17e27",
+    "run_runtime_experiment.py": "f5edd1059fefdf6621fbd989e43bce7036a007b884ed4f49204106148eb095cb"
+  }
+}

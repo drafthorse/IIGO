@@ -1,0 +1,89 @@
+{
+  "material_passport": {
+    "origin_skill": "academic-research-suite/experiment-agent",
+    "origin_mode": "validate",
+    "verification_status": "ANALYZED",
+    "version_label": "final_iigo_ablation_analysis_v1"
+  },
+  "status": "PASS",
+  "friedman_statistic": 57.461538461538495,
+  "friedman_p_value": 2.0482551915380563e-12,
+  "kendalls_w": 0.6384615384615389,
+  "ranking": [
+    {
+      "algorithm": "IIGO_Full",
+      "position": 1,
+      "average_rank": 1.6833333333333333,
+      "median_rank": 1.5,
+      "first_place_count": 15,
+      "top2_count": 24,
+      "last_place_count": 0
+    },
+    {
+      "algorithm": "IIGO_NoWindow",
+      "position": 2,
+      "average_rank": 2.033333333333333,
+      "median_rank": 2.0,
+      "first_place_count": 9,
+      "top2_count": 20,
+      "last_place_count": 0
+    },
+    {
+      "algorithm": "IIGO_NoStage",
+      "position": 3,
+      "average_rank": 2.283333333333333,
+      "median_rank": 2.25,
+      "first_place_count": 6,
+      "top2_count": 15,
+      "last_place_count": 0
+    },
+    {
+      "algorithm": "IIGO_NoIGE",
+      "position": 4,
+      "average_rank": 4.0,
+      "median_rank": 4.0,
+      "first_place_count": 0,
+      "top2_count": 0,
+      "last_place_count": 30
+    }
+  ],
+  "full_vs_ablations": [
+    {
+      "ablation": "IIGO_NoIGE",
+      "full_average_rank": 1.6833333333333333,
+      "ablation_average_rank": 4.0,
+      "full_better_mean_count": 30,
+      "equal_mean_count": 0,
+      "ablation_better_mean_count": 0,
+      "rank_biserial_positive_favors_full": 1.0,
+      "p_raw": 1.0981280727140336e-06,
+      "p_holm": 3.294384218142101e-06,
+      "outcome": "Full significantly better"
+    },
+    {
+      "ablation": "IIGO_NoStage",
+      "full_average_rank": 1.6833333333333333,
+      "ablation_average_rank": 2.283333333333333,
+      "full_better_mean_count": 20,
+      "equal_mean_count": 1,
+      "ablation_better_mean_count": 9,
+      "rank_biserial_positive_favors_full": 0.4735632183908046,
+      "p_raw": 0.021141556281323252,
+      "p_holm": 0.042283112562646503,
+      "outcome": "Full significantly better"
+    },
+    {
+      "ablation": "IIGO_NoWindow",
+      "full_average_rank": 1.6833333333333333,
+      "ablation_average_rank": 2.033333333333333,
+      "full_better_mean_count": 19,
+      "equal_mean_count": 0,
+      "ablation_better_mean_count": 11,
+      "rank_biserial_positive_favors_full": 0.25806451612903225,
+      "p_raw": 0.19902910300395238,
+      "p_holm": 0.19902910300395238,
+      "outcome": "No significant difference"
+    }
+  ],
+  "failures": []
+}

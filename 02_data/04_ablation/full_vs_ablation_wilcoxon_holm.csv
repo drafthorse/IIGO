@@ -1,0 +1,4 @@
+﻿ablation,full_average_rank,ablation_average_rank,full_better_mean_count,equal_mean_count,ablation_better_mean_count,rank_biserial_positive_favors_full,p_raw,p_holm,outcome
+IIGO_NoIGE,1.6833333333333333,4.0,30,0,0,1.0,1.0981280727140336e-06,3.294384218142101e-06,Full significantly better
+IIGO_NoStage,1.6833333333333333,2.283333333333333,20,1,9,0.4735632183908046,0.021141556281323252,0.042283112562646503,Full significantly better
+IIGO_NoWindow,1.6833333333333333,2.033333333333333,19,0,11,0.25806451612903225,0.19902910300395238,0.19902910300395238,No significant difference

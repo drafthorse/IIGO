@@ -1,0 +1,7 @@
+property,basis,metric,value
+Sampling stability,300 random seeds on a fixed population,CV single estimate,0.6688
+Sampling stability,300 random seeds on a fixed population,CV sample median,0.2072
+Scale responsiveness,Eight uniform contraction factors from 1.0 to 0.01,Spearman correlation,1.0
+Translation invariance,100 coordinate translations,Maximum absolute difference,2.08e-15
+Boundedness,Hadamard and Popoviciu inequalities,Lower bound,0.0
+Boundedness,Hadamard and Popoviciu inequalities,Upper bound,1.0

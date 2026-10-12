@@ -1,0 +1,26 @@
+{
+  "purpose": "experiment report",
+  "problems": [
+    "TRUSS17",
+    "TRUSS18",
+    "TRUSS25",
+    "TRUSS72",
+    "TRUSS120",
+    "TRUSS200"
+  ],
+  "algorithms": [
+    "IIGO",
+    "PSO",
+    "SNAKE",
+    "RDWOA",
+    "GCHHO",
+    "CSO",
+    "LSHADE",
+    "jSO"
+  ],
+  "population_size": 10,
+  "independent_runs": 30,
+  "max_fes": "recommended budget defined for each truss model",
+  "paired_seed_and_initial_population": true,
+  "original_source_directories_modified": false
+}

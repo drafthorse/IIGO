@@ -1,0 +1,5 @@
+﻿algorithm,position,average_rank,median_rank,first_place_count,top2_count,last_place_count
+IIGO_Full,1,1.6833333333333333,1.5,15,24,0
+IIGO_NoWindow,2,2.033333333333333,2.0,9,20,0
+IIGO_NoStage,3,2.283333333333333,2.25,6,15,0
+IIGO_NoIGE,4,4.0,4.0,0,0,30

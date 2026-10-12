@@ -1,0 +1,26 @@
+{
+  "purpose": "experiment report",
+  "problems": [
+    "WBD",
+    "CBD",
+    "SRD",
+    "RSLD",
+    "ELD"
+  ],
+  "algorithms": [
+    "IIGO",
+    "PSO",
+    "SNAKE",
+    "RDWOA",
+    "GCHHO",
+    "CSO",
+    "LSHADE",
+    "jSO"
+  ],
+  "population_size": 10,
+  "independent_runs": 30,
+  "max_fes": 300000,
+  "engineering_result_set": "30 paired runs for each problem",
+  "paired_seed_and_initial_population": true,
+  "original_source_directories_modified": false
+}

@@ -1,0 +1,30 @@
+{
+  "release_label": "final16_main_np10",
+  "algorithms": [
+    "IIGO",
+    "PSO",
+    "GWO",
+    "SMA",
+    "SCA",
+    "RSA",
+    "DE",
+    "SO",
+    "RDWOA",
+    "GCHHO",
+    "WEMFO",
+    "CMA-ES",
+    "CSO",
+    "LSHADE",
+    "LSHADE-cnEpSin",
+    "jSO"
+  ],
+  "benchmark_functions": 30,
+  "independent_runs": 30,
+  "dimension": 30,
+  "initial_population_size": 10,
+  "maximum_function_evaluations": 300000,
+  "row_count": 14400,
+  "pairing": "same seed and identical initial population for each function and run",
+  "reporting_metric": "fitness error relative to the known global optimum",
+  "display_zero_threshold": "absolute values below 1E-8 may be displayed as zero; unrounded values are retained in the run-level file"
+}
